@@ -33,7 +33,7 @@ const RenderWithMap = () => {
                 </thead>
                 <tbody>
                     {
-                        productList.map((values,index) => {
+                        productList.map((values, index) => {
                             return (
                                 <tr key={index}>
                                     <td>{values.name}</td>

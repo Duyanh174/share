@@ -20,7 +20,7 @@ const HandleEvent = () => {
             <button onClick={() => { showMessage('show Message') }}>Show message</button>
             <br />
             <h1> anonymus functiom</h1>
-            <button onClick={(event) => { console.log(event.target); }}>Show message 1
+            <button className='btn btn-primary' onClick={(event) => { console.log(event.target); }}>Show message 1
                 <span>asdasd</span>
             </button>
         </div>
